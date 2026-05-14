@@ -48,7 +48,8 @@ A scalable full stack notification management system built using React, TypeScri
 
 ## Desktop View
 
-![Desktop View](./notification_app_fe/screenshots/desktop-view.png)
+![Desktop View](./notification_app_fe/screenshots/desktop-view1.png)
+![Desktop View](./notification_app_fe/screenshots/desktop-view2.png)
 
 ---
 
