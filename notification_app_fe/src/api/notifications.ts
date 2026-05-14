@@ -40,6 +40,25 @@ export async function fetchNotifications(): Promise<Notification[]> {
       "Failed to fetch notifications"
     );
 
-    return [];
+    return [
+  {
+    ID: "1",
+    Type: "Placement",
+    Message: "Google interview shortlist released",
+    Timestamp: new Date().toISOString(),
+  },
+  {
+    ID: "2",
+    Type: "Result",
+    Message: "Mid semester results published",
+    Timestamp: new Date().toISOString(),
+  },
+  {
+    ID: "3",
+    Type: "Event",
+    Message: "Hackathon starts tomorrow",
+    Timestamp: new Date().toISOString(),
+  },
+];
   }
 }
